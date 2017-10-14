@@ -5380,3 +5380,22 @@ body.tg-comingsoonpage .tg-foorterbar .tg-socialicons{padding:0;}
 .tg-talk-description {
   display: none
 }
+
+@media (min-width: 991px){
+  .associate {
+      margin-left: 37%;
+      width: 25% !important;
+  }
+}
+@media (max-width: 991px){
+  .associate {
+      margin-left: 25%;
+      width: 50% !important;
+  }
+}
+@media (max-width: 699px){
+  .associate {
+      margin-left: 0%;
+      width: 100% !important;
+  }
+}
